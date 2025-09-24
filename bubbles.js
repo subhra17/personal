@@ -28,7 +28,7 @@ gfImages.forEach(src => {
 class Bubble {
   constructor(img) {
     this.img = img;
-    this.radius = Math.random() * 50 + 40;
+    this.radius = Math.random() * 40 + 20;
     this.x = Math.random() * (canvas.width - this.radius * 2) + this.radius;
     this.y = Math.random() * (canvas.height - this.radius * 2) + this.radius;
     this.dx = (Math.random() - 0.5) * 3; // speed X
@@ -161,4 +161,5 @@ setTimeout(() => {
   init();
   animate();
 }, 700); // wait for images to load
+
 
