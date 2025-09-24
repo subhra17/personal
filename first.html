@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Message from John</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #f7d5f9 0%, #fdf4a1de 100%);
+      min-height: 100vh;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .folder {
+      font-size: 100px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .folder:hover {
+      transform: scale(1.1);
+      color: goldenrod;
+    }
+
+    .message {
+      margin-top: 20px;
+      font-size: 22px;
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <!-- Folder clickable -->
+  <a href="index.html">
+    <div class="folder">📁</div>
+  </a>
+
+  <!-- Message -->
+  <div class="message">John wants to tell you something</div>
+</body>
+</html>
