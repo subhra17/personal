@@ -6,13 +6,13 @@ canvas.height = window.innerHeight;
 
 // Replace with actual paths/URLs of your gf's pics
 const gfImages = [
-  "files/img1.jpg",
-  "files/img2.jpg",
-  "files/img3.jpg",
-  "files/img4.jpg",
-  "files/img5.jpg",
-  "files/img6.jpg",
-  "files/img7.jpg"
+  "img1.jpg",
+  "img2.jpg",
+  "img3.jpg",
+  "img4.jpg",
+  "img5.jpg",
+  "img6.jpg",
+  "img7.jpg"
 ];
 
 const bubbles = [];
@@ -161,3 +161,4 @@ setTimeout(() => {
   init();
   animate();
 }, 700); // wait for images to load
+
